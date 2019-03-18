@@ -1,8 +1,9 @@
-1.6.6
+1.6.7
 R-assertthat
 R-cli
 R-doParallel
 R-expm
 R-flexsurv
 R-mvtnorm
+R-rlang
 R-withr
