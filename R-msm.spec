@@ -4,20 +4,13 @@
 #
 Name     : R-msm
 Version  : 1.6.6
-Release  : 11
+Release  : 12
 URL      : https://cran.r-project.org/src/contrib/msm_1.6.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/msm_1.6.6.tar.gz
 Summary  : Multi-State Markov and Hidden Markov Models in Continuous Time
 Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-msm-lib = %{version}-%{release}
-Requires: R-assertthat
-Requires: R-cli
-Requires: R-doParallel
-Requires: R-expm
-Requires: R-flexsurv
-Requires: R-mvtnorm
-Requires: R-withr
 BuildRequires : R-assertthat
 BuildRequires : R-cli
 BuildRequires : R-doParallel
@@ -51,10 +44,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552836314
+export SOURCE_DATE_EPOCH=1552883390
 
 %install
-export SOURCE_DATE_EPOCH=1552836314
+export SOURCE_DATE_EPOCH=1552883390
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
