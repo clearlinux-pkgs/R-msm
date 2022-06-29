@@ -4,7 +4,7 @@
 #
 Name     : R-msm
 Version  : 1.6.9
-Release  : 37
+Release  : 38
 URL      : https://cran.r-project.org/src/contrib/msm_1.6.9.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/msm_1.6.9.tar.gz
 Summary  : Multi-State Markov and Hidden Markov Models in Continuous Time
